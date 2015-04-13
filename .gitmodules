@@ -1,3 +1,6 @@
 [submodule "wp-content/themes/wp-theme"]
 	path = wp-content/themes/wp-theme
 	url = https://github.com/Phonations/wp-theme.git
+[submodule "wp-content/themes/halfcreative"]
+	path = wp-content/themes/halfcreative
+	url = https://github.com/Phonations/wp-theme.git
