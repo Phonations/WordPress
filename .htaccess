@@ -1,0 +1,40 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+<IfModule mod_alias.c>
+	Redirect permanent /tmwtga /files/TheManWithTheGoldenArm_25fps_high.zip
+	Redirect permanent /tmwtgafr /files/TheManWithTheGoldenArm_FR.zip
+	Redirect permanent /detx /files/TheManWithTheGoldenArm_EN.detx
+	Redirect permanent /cappella /files/CappellaSetup_v0.12.5.msi
+	Redirect permanent /capella /files/CappellaSetup_v0.12.5.msi
+	Redirect permanent /cappela /files/CappellaSetup_v0.12.5.msi
+	Redirect permanent /capela /files/CappellaSetup_v0.12.5.msi
+	Redirect permanent /quicktime /files/QuickTimeInstaller_v7.1.3.exe
+	Redirect permanent /mediacoder /files/mediacoder_0.6.0.3898_anglais_19581.exe
+	Redirect permanent /mediacoder /files/mediacoder_0.6.0.3898_anglais_19581.exe
+	Redirect permanent /mediacodeur /files/mediacoder_0.6.0.3898_anglais_19581.exe
+	Redirect permanent /joker /joker.php
+	Redirect permanent /teamviewer /teamviewer.php
+	Redirect permanent /usb422v /usb422v.php
+	Redirect permanent /usb422 /usb422v.php
+	Redirect permanent /revolutions /files/revolutions.swf
+	Redirect permanent /shuttle /files/cdi_shuttle_win_2.12.1.exe
+</IfModule>
